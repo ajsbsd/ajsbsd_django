@@ -1,0 +1,34 @@
+# Byte-code files
+*.pyc
+__pycache__/
+
+# Virtual environment
+# Assuming your venv is at ~/ajsbsd_venv/
+# If it's inside your project folder, use the appropriate path like /my_venv/
+ajsbsd_venv/
+.venv/
+venv/
+env/
+
+# Database
+db.sqlite3
+
+# Media files (user-uploaded)
+media/
+
+# Static files (collected static files)
+static/
+
+# IDE files
+.vscode/
+.idea/
+
+# Environment variables file (if you use one like .env)
+.env
+
+# Django-specific logs and temporary files
+*.log
+*.pot
+*.mo
+*.json
+tmp/
